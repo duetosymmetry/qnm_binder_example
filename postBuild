@@ -1,0 +1,4 @@
+set -ex
+
+# Download the qnm data
+python -c "import qnm; qnm.download_data()"
